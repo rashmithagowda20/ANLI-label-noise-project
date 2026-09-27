@@ -32,3 +32,18 @@ Average accuracy decreased as synthetic training-label noise increased. The decr
 For the 30% condition, an additional diagnostic showed that the model predicted a single class for every development example. The same diagnostic was not verified for the 20% condition, so no equivalent claim is made for that condition.
 
 ![ANLI label-noise results](results/anli_label_noise_accuracy.png)
+
+
+
+## Repository Structure
+
+```text
+anli-label-noise/
+├── notebooks/
+│   ├── README.md
+│   └── ANLI_Label_Noise_Reproducibility.ipynb
+├── results/
+│   ├── anli_label_noise_accuracy.csv
+│   └── anli_label_noise_accuracy.png
+├── requirements.txt
+└── README.md
