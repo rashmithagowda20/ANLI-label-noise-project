@@ -35,6 +35,7 @@ For the 30% condition, an additional diagnostic showed that the model predicted 
 
 
 
+
 ## Repository Structure
 
 ```text
@@ -47,7 +48,7 @@ anli-label-noise/
 │   └── anli_label_noise_accuracy.png
 ├── requirements.txt
 └── README.md
-
+```
 
 ## References
 
