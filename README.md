@@ -47,3 +47,9 @@ anli-label-noise/
 │   └── anli_label_noise_accuracy.png
 ├── requirements.txt
 └── README.md
+
+
+## References
+
+- Nie, Y., Williams, A., Dinan, E., Bansal, M., Weston, J., & Kiela, D. (2020). Adversarial NLI: A New Benchmark for Natural Language Understanding. ACL 2020.
+- Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L., & Stoyanov, V. (2019). RoBERTa: A Robustly Optimized BERT Pretraining Approach.
