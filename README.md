@@ -50,6 +50,18 @@ anli-label-noise/
 └── README.md
 ```
 
+## Reproducing the Experiment
+
+1. Open `notebooks/ANLI_Label_Noise_Reproducibility.ipynb` in Google Colab.
+2. Install the required packages listed in `requirements.txt`.
+3. Run the notebook from top to bottom.
+4. The notebook loads ANLI, creates the shared 30,000-example training sample, constructs the four label-noise conditions, trains RoBERTa-base, and evaluates each model on the ANLI R1, R2, and R3 development sets.
+5. Final accuracy results are summarized in the `results` folder.
+
+The reported results come from one training run per noise condition. Because the experiment was not repeated across multiple independent training seeds, exact accuracy values may vary slightly across reruns.
+
+
+
 ## References
 
 - Nie, Y., Williams, A., Dinan, E., Bansal, M., Weston, J., & Kiela, D. (2020). Adversarial NLI: A New Benchmark for Natural Language Understanding. ACL 2020.
